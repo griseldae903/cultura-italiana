@@ -1,0 +1,123 @@
+.header {
+   
+    background-color: rgba(0,141,68, 0.85);  /*Fondo gris oscuro*/
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    /*color: #4f3fc3;  Texto blanco */
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    padding: 10px 20px;
+    /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2); */
+    box-shadow: 0px 10px 10px rgba(74, 172, 242, 0.3);
+    z-index: 1;
+    
+  }
+  
+  nav ul {
+  
+    list-style: none;
+    display: flex;
+    gap: 60px;
+    justify-content: flex-end;
+    margin: 0;
+    padding: 0;
+  }
+
+  nav li {
+    margin-left: 55px; /*Agrega un espacio entre los elementos del menú */
+    white-space: nowrap;
+  } 
+  
+  
+  nav a {
+    text-decoration: none;
+    color: rgb(217,199, 133);
+    font-weight: bold;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:larger;
+    padding: 2px;
+    text-transform: uppercase;
+    transition: color 0.3s;
+    
+   
+  }
+  
+  nav a:hover {
+    color: rgb(246, 116, 64); /* Cambiar a un color de resaltado al pasar el mouse*/
+  }
+  .logo img {
+    width:21%; /* Establece el ancho al 50% del tamaño original */
+    height: auto;  /* Mantiene la proporción original del logo  */
+  }
+
+
+/*********** DISEÑO RESPONSIVE  del Header********************/
+
+/* Estilos para pantallas grandes */
+.header {
+  background-color: rgba(0, 141, 68, 0.85);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  box-shadow: 0px 10px 10px rgba(41, 161, 247, 0.3);
+  z-index: 1;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 60px;
+  justify-content: flex-end;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  margin-left: 55px;
+  white-space: nowrap;
+}
+
+nav a {
+  text-decoration: none;
+  color: rgb(217, 199, 133);
+  font-weight: bold;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: larger;
+  padding: 2px;
+  text-transform: uppercase;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: rgb(246, 116, 64);
+}
+
+.logo img {
+  width: 21%;
+  height: auto;
+}
+
+/* Estilos para pantallas pequeñas */
+@media only screen and (max-width: 768px) {
+  .header {
+    padding: 10px;
+  }
+
+  nav ul {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  nav li {
+    margin-right: 20px;
+    font-size: 12px;
+  }
+}

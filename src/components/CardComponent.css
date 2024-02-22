@@ -1,0 +1,69 @@
+h4 {
+    margin-top: -25px; /* Ajusta el margen superior según tus necesidades */
+    color: green red #00bfff ;  /* Cambia el color del texto a verde */
+    animation: colorMovement 3s infinite alternate; /* Utiliza la animación llamada 'colorMovement' durante 3 segundos de forma infinita y alterna */
+  
+  }
+  #ban{
+    width: 100%;
+   
+    
+  } 
+  .black-text{
+    color: black;
+  
+  }
+  /* img{
+    height: 400px;
+    
+  } */
+  /* .col-md-4 {
+    margin-top: 40px;
+  } */
+  .argentina {
+    margin-top: 40px;
+    
+  }
+  #cancel{
+    color:brown ;  /* Cambia el color del texto a verde */
+    animation: none;
+  }
+  .cardd{
+    /* box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8); */
+    box-shadow: 10px 10px 10px rgba(74, 172, 242, 0.5);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  }
+  
+  .cardd:hover {
+    transform: scale(1.05); /* Agrandar la tarjeta al 105% */
+    box-shadow: 4px 4px 16px rgba(0, 0, 0, 0.3); /* Sombras más pronunciadas en hover */
+  }
+  
+  .cardd:hover::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.1); /* Color de resaltado con opacidad */
+    border-radius: 8px;
+    z-index: -1; /* Colocar detrás de la tarjeta */
+  }
+
+  
+  @keyframes colorMovement {
+    from {
+      color: green; /* Color inicial */
+      transform: translateX(-35px); /* No hay movimiento horizontal al principio */
+    }
+  
+    to {
+      color: red; /* Color final */
+      transform: translateX(35px); /* Mueve el texto 50px hacia la derecha al final */
+    }
+  }
+   
+  
+   
+  
