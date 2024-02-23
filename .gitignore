@@ -28,3 +28,6 @@ config.js
 # .gitignore
 
 /node_modules
+
+#de donde?
+nuevo.html
