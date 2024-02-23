@@ -8,16 +8,16 @@ const Header = () => {
   return (
     <header className="header">
       <div className="logo">
-        <Link to="https://griseldae903.github.io/cultura-italiana" id='navegadorbox'>
+        <Link to="/cultura-italiana">
           <img src={logoImage} alt="Nombre del sitio: Galibo" />
         </Link>
       </div>
       {/* Menú de navegación */}
       <nav className="menu">
         <ul>
-          <li><Link to="https://griseldae903.github.io/cultura-italiana">Inicio</Link></li>
-          <li><Link to="https://griseldae903.github.io/acerca">Acerca</Link></li>
-          <li><Link to="https://griseldae903.github.io/servicios">Servicios</Link></li>
+          <li><Link to="/cultura-italiana">Inicio</Link></li>
+          <li><Link to="/acerca">Acerca</Link></li>
+          <li><Link to="/servicios">Servicios</Link></li>
           <li><Link to="/contacto">Contacto</Link></li> 
         </ul>
       </nav>
