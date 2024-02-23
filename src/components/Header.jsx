@@ -8,7 +8,7 @@ const Header = () => {
   return (
     <header className="header">
       <div className="logo">
-        <Link to="/" id='navegadorbox'>
+        <Link to="https://griseldae903.github.io/cultuta-italiana" id='navegadorbox'>
           <img src={logoImage} alt="Nombre del sitio: Galibo" />
         </Link>
       </div>
