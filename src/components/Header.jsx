@@ -15,9 +15,9 @@ const Header = () => {
       {/* Menú de navegación */}
       <nav className="menu">
         <ul>
-          <li><Link to="/cultura-italiana">Inicio</Link></li>
-          <li><Link to="/acerca">Acerca</Link></li>
-          <li><Link to="/servicios">Servicios</Link></li>
+          <li><Link to="https://griseldae903.github.io/cultura-italiana">Inicio</Link></li>
+          <li><Link to="https://griseldae903.github.io/acerca">Acerca</Link></li>
+          <li><Link to="https://griseldae903.github.io/servicios">Servicios</Link></li>
           <li><Link to="/contacto">Contacto</Link></li> 
         </ul>
       </nav>
