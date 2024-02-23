@@ -20,7 +20,7 @@ function App() {
       <div>
         <Header />
         <Routes>
-          <Route path="/" element={<CardComponent />} />
+          <Route path="/cultura-italiana" element={<CardComponent />} />
           <Route path="/acerca" element={<Acerca />} /> 
           <Route path="/servicios" element={<Servicios />} />
           <Route path="/contacto" element={<Contacto />} />
