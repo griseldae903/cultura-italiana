@@ -64,7 +64,7 @@ function DarkVariantExample() {
       <div className="row mt-4 justify-content-center">
                 <div className="col-md-4 mb-4" style={{ width: '23%',  marginRight: '9%' }}>
                   <Card className='cardd' style={{ maxWidth: '100%' }}>
-                  <a href="/acerca" >
+                  <a href="https://griseldae903.github.io/acerca" >
                     <Card.Img variant="top" src={Casita} style={{ height: '260px', width:'100%' }}/></a>
                     <Card.Body>
                       <Card.Title>Un poco de mí</Card.Title>
@@ -76,7 +76,7 @@ function DarkVariantExample() {
                 </div>
                   <div className="col-md-4 mb-4" style={{ width: '30%', marginRight: '8%' }}>
                     <Card className='cardd' style={{ maxWidth: '100%' }}>
-                     <a href="/servicios"><Card.Img variant="top" src={venice} style={{ height: '220px', width:'100%' }} /></a> 
+                     <a href="https://griseldae903.github.io/servicios"><Card.Img variant="top" src={venice} style={{ height: '220px', width:'100%' }} /></a> 
                       <Card.Body>
                         <Card.Title>BLOG <br />Pueblitos, Arte y Cultura.</Card.Title>
                         <Card.Text>
